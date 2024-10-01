@@ -59,19 +59,19 @@
  5. Datafield types of certain datafields were assumed as show in the model schema below.
 
 ## Production Ready ETL Plan
- 1. **Airflow, Dagster, or Prefect for Scheduling**
+ 1. **Airflow, Dagster, or Prefect for Scheduling**:
 Use workflow orchestration tools like Airflow or Prefect to schedule ETL jobs, manage dependencies, and monitor execution, ensuring reliability and timely processing.
 
-2. **dbt for Data Transformation**
+2. **dbt for Data Transformation**:
 Leverage dbt to automate data transformations, maintain version control, and validate models, ensuring consistency and data integrity across transformations.
 
-3. **Databricks or Snowflake for OLAP**
+3. **Databricks or Snowflake for OLAP**:
 Use Databricks or Snowflake to scale the pipeline, optimize performance, and handle large datasets with distributed computing and elastic storage.
 
-4. **Tableau, Looker, or Power BI for Visualizations**
+4. **Tableau, Looker, or Power BI for Visualizations**:
 Create dashboards in Tableau, Looker, or Power BI, empowering users with real-time visual insights and interactive reports based on the transformed data.
 
-5. **Alerts for DAG Failures and Performance**
+5. **Alerts for DAG Failures and Performance**:
 Configure automated alerts via email or Slack for failed or slow DAGs, ensuring quick remediation to minimize disruptions and maintain ETL reliability.
 
 6. **Comprehensive Logging**
