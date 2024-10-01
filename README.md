@@ -26,7 +26,8 @@
  - Business Communication: Writing a message to communicate findings to a business stakeholder.
 
  ## ETL ()
- I also wrote a ETL code in [ETL](/src/) which perform minor data issue fixes and extracts data from .gz, removes duplicates, adds mappings, transforms data and pushes it to PostgresSQL. You can change connection config to PostgreSQL by editing 
+ I also wrote a ETL code in [ETL](/src/) which perform minor data issue fixes and extracts data from .gz, removes duplicates, adds mappings, transforms data and pushes it to PostgresSQL. You can change connection config to PostgreSQL by editing \config\config.json
+ <br>
  To run perform ETL run `python main.py` in \src\.
 
  ## Task 1: Review Existing Unstructured Data and Diagram a New Structured Relational Data Model /confif/config.json
