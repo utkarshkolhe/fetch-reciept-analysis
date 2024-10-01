@@ -31,6 +31,7 @@
  1. You can configure the connection to PostgreSQL by modifying the \config\config.json file.
  2. To execute the ETL process, simply run `python main.py` from the \src\ directory.
 
+ You can find a dump of the PostgreSQL after doing ETL on the data in [SQL Data](/data/sql)
  ## Task 1: Review Existing Unstructured Data and Diagram a New Structured Relational Data Model /confif/config.json
  After examining the three JSON files provided thoroughly [Primary_Analysis](/1_Primary_Analysis.ipynb), I designed a structured relational model to efficiently store and query the data in a relational database. [Data_Model](/1_RelationalDataModel.png).
 
