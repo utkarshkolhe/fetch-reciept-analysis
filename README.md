@@ -1,2 +1,2 @@
 # fetch-reciept-analysis
- Reciepts data ETL and Analysis
+ Reciepts data ETL and Analysis.

@@ -1,0 +1,1 @@
+DROP TABLE UserRoles,Users,BrandCategories,Brands,ReceiptItems,Receipts CASCADE;
