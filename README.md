@@ -31,7 +31,7 @@
  1. You can configure the connection to PostgreSQL by modifying the \config\config.json file.
  2. To execute the ETL process, simply run `python main.py` from the \src\ directory.
 
- ### Assuumptions Made
+ ### Assumptions Made
  1. Name in the brands.json is the product name and not brand name. Each product has one barcode. each brandcode can have multiple barcodes. Therefore each row in brands corresponds to a different item and not a brand. This is evident from entries like 'Quaker Chewy' and 'Quaker Popped Crisps'
  2. Each User can have only one role at any given time.
  3. Barcode is unique per product. However this rule is violated in few places.
