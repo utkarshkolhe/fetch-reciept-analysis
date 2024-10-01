@@ -25,8 +25,8 @@
  - Data Quality Evaluation: Identifying potential data quality issues in the provided dataset.
  - Business Communication: Writing a message to communicate findings to a business stakeholder.
 
- ## ETL ()
- I also wrote a ETL code in [ETL](/src/) which perform minor data issue fixes and extracts data from .gz, removes duplicates, adds mappings, transforms data and pushes it to PostgresSQL. You can change connection config to PostgreSQL by editing \config\config.json
+ ## ETL
+ I also wrote ETL code in [ETL](/src/) which perform minor data issue fixes and extracts data from .gz, removes duplicates, adds mappings, transforms data and pushes it to PostgresSQL according to new Relational Data Model. You can change connection config to PostgreSQL by editing \config\config.json
  <br>
  To run perform ETL run `python main.py` in \src\.
 
