@@ -25,7 +25,7 @@ LIMIT 5;
 
 ```
 Result on quering on the data. Instead of using most recent month '2021-01-01' was used since it is the only month with good data in the dataset.<br>
-![Q1](https://github.com/utkarshkolhe/fetch-reciept-analysis/blob/main/query_results/Q1.jpg)
+![Q1](https://github.com/utkarshkolhe/fetch-reciept-analysis/blob/main/2_query_results/Q1.jpg)
 
 ##  Q2) How does the ranking of the top 5 brands by receipts scanned for the recent month compare to the ranking for the previous month?
 ```sql
@@ -77,7 +77,7 @@ LIMIT 5;
 
 ```
 Result on quering on the data. Instead of using most recent month and second most recent month both months were taken as '2021-01-01' used since it is the only month with good data in the dataset.<br>
-![Q2](https://github.com/utkarshkolhe/fetch-reciept-analysis/blob/main/query_results/Q2.jpg)
+![Q2](https://github.com/utkarshkolhe/fetch-reciept-analysis/blob/main/2_query_results/Q2.jpg)
 
 ## Q3) When considering average spend from receipts with 'rewardsReceiptStatus' of 'Accepted' or 'Rejected', which is greater?
 
@@ -94,7 +94,7 @@ GROUP BY rewardsReceiptStatus
 ORDER BY averageSpend DESC;
 ```
 Result on quering on the data.<br>
-![Q3](https://github.com/utkarshkolhe/fetch-reciept-analysis/blob/main/query_results/Q3.jpg)
+![Q3](https://github.com/utkarshkolhe/fetch-reciept-analysis/blob/main/2_query_results/Q3.jpg)
 
 
 
@@ -114,7 +114,7 @@ GROUP BY r.rewardsReceiptStatus
 ORDER BY totalItemsPurchased DESC;
 ```
 Result on quering on the data.<br>
-![Q4](https://github.com/utkarshkolhe/fetch-reciept-analysis/blob/main/query_results/Q4.jpg)
+![Q4](https://github.com/utkarshkolhe/fetch-reciept-analysis/blob/main/2_query_results/Q4.jpg)
 
 
 ## Q5) Which brand has the most  _spend_  among users who were created within the past 6 months?
@@ -134,7 +134,7 @@ ORDER BY totalSpend DESC
 LIMIT 1;
 ```
 Result on quering on the data. Instead of using last 6 months all of the users were used since the data does not have 6 months data.<br>
-![Q5](https://github.com/utkarshkolhe/fetch-reciept-analysis/blob/main/query_results/Q5.jpg)
+![Q5](https://github.com/utkarshkolhe/fetch-reciept-analysis/blob/main/2_query_results/Q5.jpg)
 
 
 ## Q6) Which brand has the most  _transactions_  among users who were created within the past 6 months?
@@ -154,4 +154,4 @@ ORDER BY transactionCount DESC
 LIMIT 1;
 ```
 Result on quering on the data. Instead of using last 6 months all of the users were used since the data does not have 6 months data.<br>
-![Q6](https://github.com/utkarshkolhe/fetch-reciept-analysis/blob/main/query_results/Q6.jpg)
+![Q6](https://github.com/utkarshkolhe/fetch-reciept-analysis/blob/main/2_query_results/Q6.jpg)

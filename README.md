@@ -10,13 +10,13 @@
  ├─ src/                        - Contains complete ETL Pipeline. Can be run with 'python main.py'
  ├─ 1_Primary_Analysis.ipynb    - TASK1 :Primary Analysis to get the structure of data, used to form schema and perform ETL.
  ├─ 1_RelationalDataModel.png   - TASK1 : Relational Data Model schema diagram
- ├─ 2_Queries.md                - TASK2 : Contains Queries and results from TASK 2
+ ├─ 2_queries.md                - TASK2 : Contains Queries and results from TASK 2
  ├─ 2_query_results/            - TASK2 : Contains Images of Query results of TASK 2
  ├─ 3_Data_Quality_Issues.ipynb - TASK3 : Deep dive into Data Quality Issues with SQL and Python
  ├─ 4_Email.md                  - TASK4 : Email for TASK 4
 ```
 
- ## Project OverViewl
+ ## Project OverView
 
  In this project, we analyze unstructured JSON data and design a new structured relational data model to meet business requirements. The project is broken down into several parts:
 
@@ -35,7 +35,7 @@
 
  ## Task 2: Write queries that directly answer predetermined questions from a business stakeholder
 
- I have written queries to answer all business problems [Queries](2_Queries.md), I also ran this queries with minor adjustments to durations on the result of the ETL. Screenshots of results of PostgreSQL can be found in [Images](/2_query_results/)
+ I have written queries to answer all business problems [Queries](2_queries.md), I also ran this queries with minor adjustments to durations on the result of the ETL. Screenshots of results of PostgreSQL can be found in [Images](/2_query_results/)
 
  ## Task 3: Evaluate Data Quality Issues in the Data Provided
 
