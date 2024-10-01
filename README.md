@@ -36,7 +36,7 @@
  2. barcode and brandcode of a receipt item corresponds with a item in brands database. There are inconsistencies with this rule aswell.
  3. Each User can have only one role at any given time.
  4. Barcode is unique per product. However this rule is violated in few places.
- 5. Datafield types of certain datafields were assumed as show in the schema model.
+ 5. Datafield types of certain datafields were assumed as show in the model schema below.
 
  ## Task 1: Review Existing Unstructured Data and Diagram a New Structured Relational Data Model /confif/config.json
  After examining the three JSON files provided thoroughly [Primary_Analysis](/1_Primary_Analysis.ipynb), I designed a structured relational model to efficiently store and query the data in a relational database. [Data_Model](/1_RelationalDataModel.png).
