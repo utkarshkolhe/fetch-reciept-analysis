@@ -24,6 +24,7 @@ ORDER BY brandRank
 LIMIT 5;
 
 ```
+![Description of image](https://github.com/utkarshkolhe/fetch-reciept-analysis/blob/main/query_results/Q1.jpg)
 
   ##  Q2) How does the ranking of the top 5 brands by receipts scanned for the recent month compare to the ranking for the previous month?
 ```sql
