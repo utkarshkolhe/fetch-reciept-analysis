@@ -6,7 +6,7 @@
  ```
  fetch-reciept-analysis/
  ├─ config/                     - Contains config file for connecting to PostgreSQL
- ├─ data/                       - Contains raw json data as well as the SQL database after ETL
+ ├─ data/                       - Contains raw json data as well as the SQL database dump after ETL
  ├─ src/                        - Contains complete ETL Pipeline. Can be run with 'python main.py'
  ├─ 1_Primary_Analysis.ipynb    - TASK1 :Primary Analysis to get the structure of data, used to form schema and perform ETL.
  ├─ 1_RelationalDataModel.png   - TASK1 : Relational Data Model schema diagram
