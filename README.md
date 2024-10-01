@@ -25,11 +25,14 @@
  - Data Quality Evaluation: Identifying potential data quality issues in the provided dataset.
  - Business Communication: Writing a message to communicate findings to a business stakeholder.
 
- ## Task 1: Review Existing Unstructured Data and Diagram a New Structured Relational Data Model
+ ## ETL ()
+ I also wrote a ETL code in [ETL](/src/) which perform minor data issue fixes and extracts data from .gz, removes duplicates, adds mappings, transforms data and pushes it to PostgresSQL. You can change connection config to PostgreSQL by editing 
+ To run perform ETL run `python main.py` in \src\.
 
+ ## Task 1: Review Existing Unstructured Data and Diagram a New Structured Relational Data Model /confif/config.json
  After examining the three JSON files provided thoroughly [Primary_Analysis](/1_Primary_Analysis.ipynb), I designed a structured relational model to efficiently store and query the data in a relational database. [Data_Model](/1_RelationalDataModel.png).
 
- I also wrote a ETL code in [ETL](/src/) which perform minor data issue fixes and loads data on PostgreSQL.
+
 
  ![Data_Model](/1_RelationalDataModel.png)
 
