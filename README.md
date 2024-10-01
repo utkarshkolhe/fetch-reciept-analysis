@@ -4,7 +4,7 @@
 
  ### File Structure
  ```
- fetch-receipt-processor/
+ fetch-reciept-analysis/
  ├─ config/                     - Contains config file for connecting to PostgreSQL
  ├─ data/                       - Contains raw json data as well as the SQL database after ETL
  ├─ src/                        - Contains complete ETL Pipeline. Can be run with 'python main.py'
