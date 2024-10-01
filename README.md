@@ -31,13 +31,6 @@
  1. You can configure the connection to PostgreSQL by modifying the \config\config.json file.
  2. To execute the ETL process, simply run `python main.py` from the \src\ directory.
 
- ### Assumptions Made
- 1. Name in the brands.json is the product name and not brand name. Each product has one barcode. each brandcode can have multiple barcodes. Therefore each row in brands corresponds to a different item and not a brand. This is evident from entries like 'Quaker Chewy' and 'Quaker Popped Crisps'
- 2. barcode and brandcode of a receipt item corresponds with a item in brands database. There are inconsistencies with this rule aswell.
- 3. Each User can have only one role at any given time.
- 4. Barcode is unique per product. However this rule is violated in few places.
- 5. Datafield types of certain datafields were assumed as show in the model schema below.
-
  ## Task 1: Review Existing Unstructured Data and Diagram a New Structured Relational Data Model /confif/config.json
  After examining the three JSON files provided thoroughly [Primary_Analysis](/1_Primary_Analysis.ipynb), I designed a structured relational model to efficiently store and query the data in a relational database. [Data_Model](/1_RelationalDataModel.png).
 
@@ -58,7 +51,12 @@
 
  I have drafted a email to talk to the Stakeholders requesting clarification, suggesting resolutions and talking about scaling the architecture. Please find it here [Email](/4_Email.md)
 
-
+ ## Assumptions Made
+ 1. Name in the brands.json is the product name and not brand name. Each product has one barcode. Each brandcode can have multiple barcodes. Therefore each row in brands corresponds to a different item and not a brand. This is evident from entries like 'Quaker Chewy' and 'Quaker Popped Crisps'
+ 2. barcode and brandcode of a receipt item corresponds with a item in brands database. There are inconsistencies with this rule aswell.
+ 3. Each User can have only one role at any given time.
+ 4. Barcode is unique per product. However this rule is violated in few places.
+ 5. Datafield types of certain datafields were assumed as show in the model schema below.
 
 ## Production Ready ETL Plan
  1. **Airflow, Dagster, or Prefect for Scheduling**
