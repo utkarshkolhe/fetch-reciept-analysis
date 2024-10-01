@@ -16,14 +16,14 @@
  ├─ 4_Email.md                  - TASK4 : Email for TASK 4
 ```
 
- ## Project OverView
+ ## Project Overview
 
  In this project, we analyze unstructured JSON data and design a new structured relational data model to meet business requirements. The project is broken down into several parts:
 
- Data Model Design: Reviewing the provided data (Receipts, Users, and Brands) and designing a structured relational data model.
- SQL Query Generation: Writing queries that answer specific business questions related to the data.
- Data Quality Evaluation: Identifying potential data quality issues in the provided dataset.
- Business Communication: Writing a message to communicate findings to a business stakeholder.
+ - Data Model Design: Reviewing the provided data (Receipts, Users, and Brands) and designing a structured relational data model.
+ - SQL Query Generation: Writing queries that answer specific business questions related to the data.
+ - Data Quality Evaluation: Identifying potential data quality issues in the provided dataset.
+ - Business Communication: Writing a message to communicate findings to a business stakeholder.
 
  ## Task 1: Review Existing Unstructured Data and Diagram a New Structured Relational Data Model
 
